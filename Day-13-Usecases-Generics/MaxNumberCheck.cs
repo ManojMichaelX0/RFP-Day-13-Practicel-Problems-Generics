@@ -22,7 +22,7 @@ namespace Day_13_Usecases_Generics
             {
                 return thirdNumber;
             }
-            throw new Exception("double numbers firstNumber,secondNumber,thirdNumber are same");
+            throw new Exception("int numbers firstNumber,secondNumber,thirdNumber are same");
 
         }
 
