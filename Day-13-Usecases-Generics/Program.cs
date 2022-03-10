@@ -8,13 +8,13 @@ namespace Day_13_Usecases_Generics
         {
 
             Console.WriteLine("Find Max Int  Number using Generic Method");
-            Refactor_to_generic.FindMax<int>(11, 22, 9);
+            Refactor_to_generic<int>.FindMax<int>(11, 22, 9, 44);
 
             Console.WriteLine("Find Max Double  Number using Generic Method");
-            Refactor_to_generic.FindMax<double>(11.3, 22.23, 9.55);
+            Refactor_to_generic<double>.FindMax<double>(11.3, 22.23, 9.55, 30.5);
 
             Console.WriteLine("Find Max String Number using Generic Method");
-            Refactor_to_generic.FindMax<string>("22","33","44");
+            Refactor_to_generic<double>.FindMax<string>("22","33","44","11");
 
         }
     }
