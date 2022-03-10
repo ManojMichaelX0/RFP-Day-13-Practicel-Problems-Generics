@@ -7,15 +7,10 @@ namespace Day_13_Usecases_Generics
         static void Main(string[] args)
         {
 
-            //Console.WriteLine("UseCase 1 Find Max Int  Number");
+            Console.WriteLine("UseCase 3 Find Max String  Number");
 
-            //int intOutput = MaxNumberCheck.MaxNumbermethod_Int(11, 22, 33);
-            //Console.Write(intOutput);
-
-            Console.WriteLine("UseCase 2 Find Max Double  Number");
-
-            double doubleOutput = MaxNumberCheck_Double.MaxNumbermethod_Double(112.3, 22.23, 33.6);
-            Console.Write(doubleOutput);
+            string stringOutput = MxNumbercheck_String.MaxNumbermethod_String("11","22","44");
+            Console.Write(stringOutput);
 
         }
     }
