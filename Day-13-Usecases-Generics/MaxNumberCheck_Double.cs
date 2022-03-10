@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Day_13_Usecases_Generics
 {
-    internal class MaxNumberCheck
+    internal class MaxNumberCheck_Double
     {
-        public static int MaxNumbermethod_Int(int firstNumber, int secondNumber, int thirdNumber)
+        public static double MaxNumbermethod_Double(double firstNumber, double secondNumber, double thirdNumber)
         {
             if (firstNumber.CompareTo(secondNumber) > 0 && firstNumber.CompareTo(thirdNumber) > 0)
             {
@@ -22,9 +22,8 @@ namespace Day_13_Usecases_Generics
             {
                 return thirdNumber;
             }
-            throw new Exception("int numbers firstNumber,secondNumber,thirdNumber are same");
+            throw new Exception("double numbers firstNumber,secondNumber,thirdNumber are same");
 
         }
-
     }
 }
